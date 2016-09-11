@@ -208,7 +208,7 @@ td {
 
 /* Wrapper */
 .wrapper {
-  width:960px;
+  width:90%;
 }
 
 /* Header */
@@ -321,7 +321,7 @@ a.buttons:hover {
 /* Section - for main page content */
 
 section {
-  width:10%;
+  width:60%;
   float:right;
   padding-bottom:50px;
 }
