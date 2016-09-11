@@ -214,10 +214,10 @@ td {
 /* Header */
 
 header {
-  background: url("../images/test_edge.jpg") no-repeat;
+  background: url("../images/test_edge.jpg") 250px no-repeat;
   background-color: #171717;
   color: #FDFDFB;
-  width:180px;
+  width:250px;
   float:left;
   position:fixed;
 	border: 1px solid #000;
