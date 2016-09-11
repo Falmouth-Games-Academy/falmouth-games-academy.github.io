@@ -229,9 +229,6 @@ header {
 	padding: 34px 25px 22px 50px;
 	margin: 30px 25px 0 0;
 	-webkit-font-smoothing: antialiased;
-  -ms-transform: rotate(20deg); /* IE 9 */
-  -webkit-transform: rotate(20deg); /* Safari */
-  transform: rotate(20deg);
 }
 
 p.header {
@@ -342,6 +339,12 @@ footer {
   div.wrapper {
     width:auto;
     margin:0;
+  }
+  
+  div.edge {
+    -ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Safari */
+    transform: rotate(20deg);
   }
 
   header, section, footer {
