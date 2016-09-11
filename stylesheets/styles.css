@@ -220,7 +220,7 @@ header {
   background-color: #FDFDFB;
   color: #171717;
   width: 30%;
-  height: auto;
+  height: 100%;
   float:left;
   position:fixed;
 }
