@@ -342,6 +342,7 @@ footer {
   }
   
   .edge {
+    width:auto;
     -ms-transform: rotate(20deg); /* IE 9 */
     -webkit-transform: rotate(20deg); /* Safari */
     transform: rotate(20deg);
