@@ -214,7 +214,7 @@ td {
 /* Header */
 
 header {
-  background-image: url("../images/test_edge.jpg") no-repeat;
+  background: url("../images/test_edge.jpg") no-repeat;
   background-color: #171717;
   color: #FDFDFB;
   width:180px;
