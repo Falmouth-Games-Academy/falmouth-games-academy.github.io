@@ -1,0 +1,39 @@
+Fallout Minigame - Pseudo Code
+	Create several random four letter words
+	Create 'SecretWord' variable
+	'SecretWord' = Randomly selected four letter word when the program is run
+	Create 'RemainingAttempts' variable
+	'RemainingAttempts' = 5
+	Create 'Likeness' variable
+	Likeness = 0
+	
+	Print "Guess the Secret Word"
+	
+	Begin Loop{
+	Print list of words including SecretWord to user
+	Print 'RemainingAttempts'
+	Store user input as 'UserGuess'
+	If the first letter of 'UserGuess' is the same as 'SecretWord'       
+		add 1 to Likeness
+	else
+		add -1 to Likeness
+	If the second letter of 'UserGuess' is the same as 'SecretWord'
+		add 1 to Likeness
+	else
+		add -1 to Likeness
+	If the third letter of 'UserGuess' is the same as 'SecretWord'
+		add 1 to Likeness
+	else
+		add -1 to Likeness
+	If the fourth letter of 'UserGuess' is the same as 'SecretWord'
+		add 1 to Likeness
+	else
+		add -1 to Likeness
+	}End Loop
+
+	Print Likeness = "Likeness"
+	If Likeness = 4 after four guesses print "Correct!"
+	Exit Game
+	Else print "Incorrect, better luck next time"
+	Return to loop
+END
